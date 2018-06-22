@@ -19,6 +19,19 @@ public class Cl_decrementAndIncrement {
 
 
 		System.out.println(d);// should print 3 as d gets the value of C after increment.
+		/* Info
+		 * y = ++x; is equivalent to the following two statements ( AKA Pre-Increment)
+		 * x = x + 1;
+		 * y = x;
+		 * 
+		 * Similarly,
+		 * y = x++; is equivalent to ( AKA post increment )
+		 * y = x;
+		 * x = x + 1;
+		 * 
+		 * 
+		 * */
+		
 
 	}
 
