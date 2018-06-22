@@ -1,6 +1,6 @@
 package Day2;
 
-import com.sun.source.tree.WhileLoopTree;
+import java.util.Scanner;
 
 /*
  * Print Fibonacci Series
@@ -16,18 +16,22 @@ public class Ex3_Fibonacci_IncrementDecrement {
 	public static void main(String[] args) {
 		int a = 1; int b = 1; int c = 0;
 
-		int limit = 10; //set the range of the series
-		int i = 0;
-		while ( limit < 0) { // initiate a condition till i is less than the limit
-
-			b = c;
-			c = a;
-			System.out.println(c);
-			c = a+b;
+	    Scanner in = new Scanner(System.in);
+	    System.out.println("How many Fibonocci numbers you want to see ? ");
+	    int limit = in.nextInt(); //set the range of the series as user input.
+		//int limit = 10; 
+		//System.out.println(limit);
+	    int count = 1;
+		while ( limit > 0) { // initiate a condition till i is less than the limit
+			//System.out.println(limit);
+			a = b;  // A takes the value of b
+			b = c;  // b takes the value of c
+			c = a+b; // c adds the values of a and b and stores in c. 
+			System.out.println(count +" Fibonocci number is : "+c);
+			count++;
 			limit--;
 		}
-
-
+		//System.out.println(limit);
 	}
 
 }

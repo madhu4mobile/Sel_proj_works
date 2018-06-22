@@ -6,19 +6,22 @@ public class Ex3_Sorting3Numbers {
 		// to sort three number to increasing order
 		int a = 12; int b = 3; int c = 45;
 
-		if (a>b)
-		{
-			int greater = a;
+		// plan. create a function to swap the given two numbers in increasing order
+		
+		
+		public  swap(int x;  int y){
+			int temp = x;
+			x = y;
+			y = temp;
 		}
-		else if (a>c)
-		{
-			greater = c;//// causing local variable issue.
-		}
-
-
-
+		
+		
+		
+		
 
 
 	}
+
+
 
 }
