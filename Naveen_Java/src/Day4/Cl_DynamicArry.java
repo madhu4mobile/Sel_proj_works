@@ -18,11 +18,11 @@ public class Cl_DynamicArry {
 		// to get array size, ar.size();
 
 		//to print a particular value
-		System.out.println(ar.get(3));
+		System.out.println(ar.get(3));  // to get fourth memeber from the list.
 
 		// to print all the values from array list
 		for (int i=0; i<ar.size(); i++) {
-			System.out.println(ar.get(i));
+			System.out.println(ar.get(i)); // to get all members from the list.
 		}
 // to remove any element
 		ar.remove(2);// this removes the second element and the remaining elements will be shifted up to occupy that place.
@@ -31,12 +31,6 @@ public class Cl_DynamicArry {
 			System.out.println(ar.get(i));
 		}
 
-
-		// Integer ArrayList;
-
-
-		}
-
-
+	}
 
 }
