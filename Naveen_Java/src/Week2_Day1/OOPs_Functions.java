@@ -48,7 +48,7 @@ public class OOPs_Functions {
 	//3. Some input and some output method 
 	// this should take some values and returns some values
 	public float div(int a, int b) {
-		System.out.println("This method takes integers a and b and returns the integral value of a/b ");
+		System.out.println("This method takes integers a and b and returns the integer part of a/b ");
 		float d = (int)a/b;
 		return d;
 	}
