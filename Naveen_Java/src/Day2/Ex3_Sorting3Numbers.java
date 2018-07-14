@@ -8,15 +8,19 @@ public class Ex3_Sorting3Numbers {
 
 		// plan. create a function to swap the given two numbers in increasing order
 		
+		Ex3_Sorting3Numbers t = new Ex3_Sorting3Numbers();
 		
-		public  swap(int x;  int y){
+		//swap(a,b)
+		
+		public int swap(int x;  int y){
 			int temp = x;
 			x = y;
 			y = temp;
 		}
 		
 		
-		
+
+
 		
 
 

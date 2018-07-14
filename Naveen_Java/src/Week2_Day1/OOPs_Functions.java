@@ -14,11 +14,7 @@ public class OOPs_Functions {
 		// structure to initiate an object in Java ---> ClassName Object_Ref_Variable = new ClassName()
 		OOPs_Functions ob = new OOPs_Functions();
 		
-		ob.
-		
-		
-		
-		
+		System.out.println(ob.div(12, 7));
 		
 	}
 	//Rules: 1. Can not create a function inside a function
@@ -51,9 +47,9 @@ public class OOPs_Functions {
 	}
 	//3. Some input and some output method 
 	// this should take some values and returns some values
-	public int div(int a, int b) {
-		System.out.println("This method takes integers a and b and returns ");
-		int d = int a/b;
+	public float div(int a, int b) {
+		System.out.println("This method takes integers a and b and returns the integer part of a/b ");
+		float d = (int)a/b;
 		return d;
 	}
 	
