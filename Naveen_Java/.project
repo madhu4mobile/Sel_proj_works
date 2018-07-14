@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/week2_Day3_Inheritance/Step-Inheritance.png</name>
+			<type>1</type>
+			<location>C:/Users/madhu/OneDrive/Documents/Step-Inheritance.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
